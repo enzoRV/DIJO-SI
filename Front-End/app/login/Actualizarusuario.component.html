@@ -1,0 +1,87 @@
+<div class="col-sm-4" [hidden]="esconder">
+    <h2>Actualizar Datos:</h2>
+    <form class="form-horizontal" novalidate>
+        <div class="form-group">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="prov" class="control-label col-sm-2">
+                Id:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="prov" name="usuarioId" [(ngModel)]="usuario.idUsuario"
+                    placeholder="Id" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="prov" class="control-label col-sm-2">
+                Nombre:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="prov" name="usuarioNombre" [(ngModel)]="usuario.nomUsuario"
+                    placeholder="Nombre" readonly>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="form-group">
+            <label for="des" class="control-label col-sm-2">
+                Telefono:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="des" name="usuarioTelefono" [(ngModel)]="usuario.telfUsuario"
+                    placeholder="ingrese una telefono">
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Direccion:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="usuarioDireccion" [(ngModel)]="usuario.dirUsuario"
+                    placeholder="Ingrese una direccion">
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Email:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="usuarioCorreo" [(ngModel)]="usuario.emailUsuario"
+                    placeholder="Ingrese una direccion">
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Contraseña:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="usuarioContraseña" [(ngModel)]="usuario.passUsuario"
+                    placeholder="Ingrese una direccion">
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button type="submit" class="btn btn-success" (click)="actualizar()">
+                    Actualizar
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

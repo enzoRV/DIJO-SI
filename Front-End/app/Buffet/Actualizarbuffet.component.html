@@ -1,0 +1,37 @@
+<div class="col-sm-4" [hidden]="esconder">
+        <h2>Actualizar Datos:</h2>
+        <form class="form-horizontal" novalidate>
+          <div class="form-group">
+          </div>
+
+
+          <div class="form-group">
+            <label for="prov" class="control-label col-sm-2">
+              ID:
+            </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="prov" name="idBuffet" [(ngModel)]="buffet.idBuffet" placeholder="ID"
+                readonly>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+              Precio:
+            </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="pre" name="preBuffet" [(ngModel)]="buffet.preBuffet" placeholder="Precio">
+            </div>
+          </div>
+      
+      
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <button type="submit" class="btn btn-success" (click)="actualizar()">
+                Actualizar
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>

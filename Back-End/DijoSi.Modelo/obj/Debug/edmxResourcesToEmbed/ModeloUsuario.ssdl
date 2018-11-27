@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_DijoSIModeloUsuario.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="dniUsuario" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="nomUsuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="apePatUsuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="apeMatUsuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="telfUsuario" Type="char" MaxLength="30" Nullable="false" />
+    <Property Name="dirUsuario" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="emailUsuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="loginUsuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="passUsuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="verificaEmail" Type="bit" Nullable="false" />
+    <Property Name="Codigo" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Reiniciarcontra" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="BD_DijoSIModeloUsuarioStoreContainer">
+    <EntitySet Name="tb_usuario" EntityType="Self.tb_usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

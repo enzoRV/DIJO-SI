@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-6">
+    <a [routerLink]="['/registrarRegalo']" class="btn btn-success">
+      Registrar Regalos
+    </a>
+    <h2>Listado de Regalos: </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let regalo of regalos">
+          <td>{{regalo.desRegalo}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

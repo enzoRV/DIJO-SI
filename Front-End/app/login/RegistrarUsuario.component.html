@@ -1,0 +1,94 @@
+<div class="col-sm-4" [hidden]="esconder">
+    <h2>Ingrese sus Datos para el Registro:</h2>
+    <form class="form-horizontal" novalidate>
+        <div class="form-group">
+            <label for="prov" class="control-label col-sm-2">
+                Nombre:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="prov" name="fotografoNombre" [(ngModel)]="usuario.nomUsuario" placeholder="Ingrese un nombre">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="des" class="control-label col-sm-2">
+                Apellido Paterno:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="des" name="fotografoTelefono" [(ngModel)]="usuario.apePatUsuario" placeholder="ingrese una telefono">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Apellido Materno:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.apeMatUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="des" class="control-label col-sm-2">
+                DNI:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="des" name="fotografoTelefono" [(ngModel)]="usuario.dniUsuario" placeholder="ingrese una telefono">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Telefono:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.telfUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Direccion:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.dirUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Email:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.emailUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Usuario:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.loginUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Contraseña:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.passUsuario" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pre" class="control-label col-sm-2">
+                Verifique Contraseña:
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="usuario.ConfirmaContrasena" placeholder="Ingrese una direccion">
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button type="submit" class="btn btn-success" (click)="registrarUsuario()">
+                    Registrar
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

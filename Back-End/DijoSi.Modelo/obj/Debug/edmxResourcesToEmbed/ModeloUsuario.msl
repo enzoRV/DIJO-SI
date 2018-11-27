@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_DijoSIModeloUsuarioStoreContainer" CdmEntityContainer="BD_DijoSIEntities">
+    <EntitySetMapping Name="tb_usuario">
+      <EntityTypeMapping TypeName="BD_DijoSIModeloUsuario.tb_usuario">
+        <MappingFragment StoreEntitySet="tb_usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="dniUsuario" ColumnName="dniUsuario" />
+          <ScalarProperty Name="nomUsuario" ColumnName="nomUsuario" />
+          <ScalarProperty Name="apePatUsuario" ColumnName="apePatUsuario" />
+          <ScalarProperty Name="apeMatUsuario" ColumnName="apeMatUsuario" />
+          <ScalarProperty Name="telfUsuario" ColumnName="telfUsuario" />
+          <ScalarProperty Name="dirUsuario" ColumnName="dirUsuario" />
+          <ScalarProperty Name="emailUsuario" ColumnName="emailUsuario" />
+          <ScalarProperty Name="loginUsuario" ColumnName="loginUsuario" />
+          <ScalarProperty Name="passUsuario" ColumnName="passUsuario" />
+          <ScalarProperty Name="verificaEmail" ColumnName="verificaEmail" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Reiniciarcontra" ColumnName="Reiniciarcontra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

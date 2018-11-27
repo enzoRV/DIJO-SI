@@ -1,0 +1,36 @@
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Datos.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Datos.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csprojAssemblyReference.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Modelo.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Modelo.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CopyComplete
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Datos.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Datos.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Modelo.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\bin\Debug\DijoSi.Modelo.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csprojAssemblyReference.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CopyComplete
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSi\Back-End\DijoSi\DijoSi.Datos\obj\Debug\DijoSi.Datos.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csprojAssemblyReference.cache
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Datos.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Datos.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Modelo.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Modelo.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CopyComplete
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Datos.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Datos.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Modelo.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\bin\Debug\DijoSi.Modelo.pdb
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csprojAssemblyReference.cache
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CoreCompileInputs.cache
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.csproj.CopyComplete
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.dll
+C:\Users\ENZO\Desktop\ProyectoIntegrador-master original\Back-End\DijoSi.Datos\obj\Debug\DijoSi.Datos.pdb

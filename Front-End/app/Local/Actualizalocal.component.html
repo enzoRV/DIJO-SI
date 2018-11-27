@@ -1,0 +1,84 @@
+<div class="col-sm-4" [hidden]="esconder">
+    <h2>Actualizar Datos:</h2>
+    <form class="form-horizontal" novalidate>
+      <div class="form-group">
+      </div>
+
+
+      <div class="form-group">
+        <label for="prov" class="control-label col-sm-2">
+          Id:
+        </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="prov" name="localId" [(ngModel)]="local.idLocal"
+            placeholder="Id" readonly>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="des" class="control-label col-sm-2">
+          Nombre:
+        </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="des" name="localNombre" [(ngModel)]="local.nomLocal"
+            placeholder="Nombre">
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="des" class="control-label col-sm-2">
+          Direccion:
+        </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="des" name="localDireccion" [(ngModel)]="local.dirLocal"
+            placeholder="Direccion">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="des" class="control-label col-sm-2">
+          Telefono:
+        </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="des" name="localTelefono" [(ngModel)]="local.telfLocal"
+            placeholder="Telefono">
+        </div>
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="pre" class="control-label col-sm-2">
+          Cantidad:
+        </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="pre" name="localCantidad" [(ngModel)]="local.cantLocal"
+            placeholder="Cantidad">
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="des" class="control-label col-sm-2">
+          Distrito:
+        </label>
+        <select id="distrito" name="distritoLocal" [(ngModel)]="local.idDistrito" class="form-Control">
+          <option value="-1">--Seleccione Distrito--</option>
+          <option *ngFor="let distrito of distritos" [value]="distrito.idDistrito">
+            {{distrito.nomDistrito}}
+          </option>
+        </select>
+      </div>
+
+
+
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <button type="submit" class="btn btn-success" (click)="actualizar()">
+            Actualizar
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>

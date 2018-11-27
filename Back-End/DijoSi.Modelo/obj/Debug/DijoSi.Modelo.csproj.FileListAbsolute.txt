@@ -1,0 +1,6 @@
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\bin\Debug\DijoSi.Modelo.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\bin\Debug\DijoSi.Modelo.pdb
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\obj\Debug\DijoSi.Modelo.csprojAssemblyReference.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\obj\Debug\DijoSi.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\obj\Debug\DijoSi.Modelo.dll
+C:\Users\alex_\Desktop\Proyecto_DijoSI\DijoSi\DijoSi.Modelo\obj\Debug\DijoSi.Modelo.pdb

@@ -1,0 +1,38 @@
+<div class="col-sm-4" [hidden]="esconder">
+  <h2>Registrar Fotografo:</h2>
+  <form class="form-horizontal" novalidate>
+    <div class="form-group">
+      <label for="prov" class="control-label col-sm-2">
+        Nombre:
+      </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="prov" name="fotografoNombre" [(ngModel)]="fotografo.nomFotografo" placeholder="Ingrese un nombre">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="des" class="control-label col-sm-2">
+        Telefono:
+      </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="des" name="fotografoTelefono" [(ngModel)]="fotografo.telfFotografo" placeholder="ingrese una telefono">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="pre" class="control-label col-sm-2">
+        Direccion:
+      </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="pre" name="fotografoCorreo" [(ngModel)]="fotografo.dirFotografo" placeholder="Ingrese una direccion">
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <div class="col-sm-10 col-sm-offset-2">
+        <button type="submit" class="btn btn-success" (click)="registrar()">
+          Registrar
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

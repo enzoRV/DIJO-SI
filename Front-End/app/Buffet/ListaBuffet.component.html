@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-sm-6">
+    <a [routerLink]="['/registrarBuffet']" class="btn btn-success">
+      Registrar Buffet
+    </a>
+    <h2>Listado de Buffets: </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Proveedor</th>
+          <th>Nombre del Platillo</th>
+          <th>Descripcion del Platillo</th>
+          <th>Precio del Platillo</th>
+          <th>Categoria</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let buffet of buffets">
+          <td>{{buffet.nomprovBuffet}}</td>
+          <td>{{buffet.nomBuffet}}</td>
+          <td>{{buffet.desBuffet}}</td>
+          <td>{{buffet.preBuffet}}</td>
+          <td>{{buffet.nomCategoria}}</td>
+          <td>
+            <a [routerLink]="['/actualizarBuffet', buffet.idBuffet]" class="btn btn-success">
+            <!--<a (click)="editFotografo(i)" class="btn btn-success">-->
+              Editar
+            </a>
+            <a (click)="eliminarBuffet(buffet.idBuffet)" class="btn btn-danger">
+              Eliminar
+            </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>

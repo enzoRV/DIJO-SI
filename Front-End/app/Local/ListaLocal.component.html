@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col-sm-6">
+    <a [routerLink]="['/registrarLocal']" class="btn btn-success">
+      Registrar Local
+    </a>
+    <h2>Listado de Locales: </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nombre del Local</th>
+          <th>Direccion del Local</th>
+          <th>telefono del Local</th>
+          <th>Cantidad de personas Maximas</th>
+          <th>Distrito</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let local of locales">
+          <td>{{local.nomLocal}}</td>
+          <td>{{local.dirLocal}}</td>
+          <td>{{local.telfLocal}}</td>
+          <td>{{local.cantLocal}}</td>
+          <td>{{local.nomDistrito}}</td>
+          <td>
+            <a [routerLink]="['/actualizarLocal',local.idLocal]" class="btn btn-success">
+              Editar
+            </a>
+            <a (click)="eliminarLocal(local.idLocal)" class="btn btn-danger">
+              Eliminar
+            </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>

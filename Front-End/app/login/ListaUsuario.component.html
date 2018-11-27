@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-sm-6">
+    <a [routerLink]="['/registrarse']" class="btn btn-success">
+      Registrar Usuario
+    </a>
+    <h2>Listado de Usaurios: </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Dni</th>
+          <th>Telefono</th>
+          <th>Direccion</th>
+          <th>Email</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let usuario of usuarios">
+          <td>{{usuario.nomUsuario}}</td>
+          <td>{{usuario.apePatUsuario}}</td>
+          <td>{{usuario.apeMatUsuario}}</td>
+          <td>{{usuario.dniUsuario}}</td>
+          <td>{{usuario.telfUsuario}}</td>
+          <td>{{usuario.dirUsuario}}</td>
+          <td>{{usuario.emailUsuario}}</td>
+          <td>
+            <a [routerLink]="['/actualizarUsuario',usuario.idUsuario]" class="btn btn-success">
+              Editar
+            </a>
+            <a (click)="eliminarUsuario(usuario.idUsuario)" class="btn btn-danger">
+              Eliminar
+            </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
